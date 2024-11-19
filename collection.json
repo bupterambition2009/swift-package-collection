@@ -209,6 +209,63 @@
         {
             "keywords":
             [
+                "aes",
+                "commoncrypto",
+                "swift",
+                "swift-package-manager"
+            ],
+            "license":
+            {
+                "name": "MIT",
+                "url": "https://github.com/AFNetworking/AFNetworking/blob/master/LICENSE"
+            },
+            "readmeURL": "https://github.com/AFNetworking/AFNetworking/blob/master/README.md",
+            "summary": "A delightful networking framework for iOS, macOS, watchOS, and tvOS.",
+            "url": "https://github.com/AFNetworking/AFNetworking.git",
+            "versions":
+            [
+                {
+                    "defaultToolsVersion": "5.1",
+                    "manifests":
+                    {
+                        "5.1":
+                        {
+                            "packageName": "AFNetworking",
+                            "products":
+                            [
+                                {
+                                    "name": "AFNetworking",
+                                    "targets":
+                                    [
+                                        "AFNetworking"
+                                    ],
+                                    "type":
+                                    {
+                                        "library":
+                                        [
+                                            "automatic"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "targets":
+                            [
+                                {
+                                    "moduleName": "AFNetworking",
+                                    "name": "AFNetworking"
+                                }
+                            ],
+                            "toolsVersion": "5.1"
+                        }
+                    },
+                    "version": "v4.0.0"
+                }
+            ]
+        },
+
+        {
+            "keywords":
+            [
                 "apple-ecosystem",
                 "game-development",
                 "game-engine",
